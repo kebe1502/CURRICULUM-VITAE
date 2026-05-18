@@ -19,17 +19,6 @@
       padding: 2rem;
     }
 
-    .page {
-      max-width: 900px;
-      margin: 0 auto;
-      background: var(--white);
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      min-height: 100vh;
-      box-shadow: 0 20px 60px rgba(0,0,0,0.12);
-    }
-
-
     .sidebar {
       background: var(--accent);
       color: var(--white);
@@ -150,7 +139,7 @@
       font-weight: 500;
     }
 
-    .summary {  font-weight: 500;text-align: left;font-size: 0.9rem; color: var(--muted); line-height: 1.4; }
+    .summary {  font-weight: 500;text-align: left;font-size: 0.7rem; color: var(--muted); line-height: 1.1; }
     .summary1 {  font-weight: 500;text-align: center;font-size: 0.8rem; color: var(--muted);line-height: 1.1; }
 
 
@@ -159,16 +148,15 @@
       align-items: center;
       gap: 0.75rem;
       font-size: 0.65rem;
-      letter-spacing: 0.15em;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
       font-weight:500;
       color: var(--text);
-      margin-bottom: 1.1rem;
+      margin-bottom: 0.2rem;
     }
 
     .tl-date { text-align: left;font-size: 0.75rem; color: var(--accent2); font-weight:500; padding-top:2px; }
-    .tl-body h4 {  text-align: left;font-size: 0.92rem;color: var(--border1); font-weight: 500; margin-bottom: 0.15rem; }
-    .tl-body .org { text-align: left;font-size: 0.60rem; color: var(--border1); font-weight:500;margin-bottom: 0.2rem; }
+    .tl-body h4 {  text-align: left;font-size: 0.75rem;color: var(--border1); font-weight: 500; margin-bottom: 0.15rem; }
     .tl-body p {  font-weight: 500;text-align: left;font-size: 0.7rem; color: var(--muted); line-height: 1.2; }
 
     .badge {
